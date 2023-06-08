@@ -1,15 +1,13 @@
 fun main(args: Array<String>) {
-    print("Привет! Меня зовут Настя, мне 34  года.")
 
-// print("Привет! Меня зовут ..., мне ...  года.")
+    val firstName: String = "Анастасия"
+    val lastName: String  = "Николаева"
+    var height: Double = 1.23
+    var weight: Float = 34F
+    val isChild: Boolean = height < 150 && weight < 40
 
-    println()
-    println("ФИО - Николаева Анастасия Юрьевна")
-    println("Возраст - 34 года")
-    println("Семейное положение - замужем")
+    var info = "$firstName $lastName, $height, $weight, $isChild"
+    println(info)
 
-   /* println("ФИО - Николаева Анастасия Юрьевна")
-    println("Возраст - 34 года")
-    println("Семейное положение - замужем") */
 
 }
